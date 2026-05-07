@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-11-05 17:12:32",
+  "metrics": {
+    "language_detection": {
+      "overall_accuracy": 1.0,
+      "language_wise_metrics": {
+        "english": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        },
+        "nepali": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        }
+      },
+      "confusion_matrix": {
+        "english": {
+          "english": 2,
+          "nepali": 0
+        },
+        "nepali": {
+          "english": 0,
+          "nepali": 3
+        }
+      }
+    },
+    "response_quality": {
+      "language_consistency_rate": 1.0,
+      "average_response_time_seconds": 3.3647589683532715,
+      "success_rate": 1.0,
+      "average_answer_length": 448.0,
+      "language_specific_metrics": {
+        "english": {
+          "consistency": 1.0,
+          "avg_response_time": 3.2594380378723145,
+          "avg_answer_length": 435.0
+        },
+        "nepali": {
+          "consistency": 1.0,
+          "avg_response_time": 3.4700798988342285,
+          "avg_answer_length": 461.0
+        }
+      },
+      "detailed_results": [
+        {
+          "question": "What is digital citizen charter?",
+          "answer": "A digital citizen charter is an online declaration by a government service provider that outlines the services offered, their standards, required documents, fees, processing times, and responsible officials, to ensure transparency, accountability, and easy access to information for citizens using digital platforms.",
+          "expected_language": "english",
+          "detected_language": "english",
+          "answer_language": "english",
+          "language_consistent": true,
+          "response_time": 3.716738224029541,
+          "has_content": true,
+          "answer_length": 316
+        },
+        {
+          "question": "डिजिटल नागरिक घोषणापत्र भनेको के हो?",
+          "answer": "डिजिटल नागरिक घोषणापत्र भनेको सरकारी निकायहरूले आफ्ना सेवाग्राहीहरूलाई प्रदान गर्ने सेवाहरू, सेवाको स्तर, लाग्ने शुल्क, समयसीमा र गुनासो सुन्ने प्रक्रिया लगायतका जानकारीहरू डिजिटल माध्यम (जस्तै वेबसाइट वा मोबाइल एप) मार्फत उपलब्ध गराउने एउटा दस्तावेज वा प्रणाली हो। यसले सेवाग्राहीलाई सजिलै र पारदर्शी रूपमा जानकारी पाउन मद्दत गर्छ।",
+          "expected_language": "nepali",
+          "detected_language": "nepali",
+          "answer_language": "nepali",
+          "language_consistent": true,
+          "response_time": 3.9070606231689453,
+          "has_content": true,
+          "answer_length": 332
+        },
+        {
+          "question": "How to get birth certificate?",
+          "answer": "To get a birth certificate, you need to apply for **Birth Registration (Service 1)**.\n\nHere are the required documents:\n*   Online form filled using public.donidcr.gov.np within 35 days of birth.\n*   Copy of citizenship certificate of mother and father (not applicable if more than 5 months after birth).\n*   Copy of marriage registration certificate of mother and father.\n*   Birth certificate issued by the hospital (if born in a hospital) OR House card or other document proving birth (if born at home).\n*   Copy of migration certificate, if migrated.",
+          "expected_language": "english",
+          "detected_language": "english",
+          "answer_language": "english",
+          "language_consistent": true,
+          "response_time": 2.802137851715088,
+          "has_content": true,
+          "answer_length": 554
+        },
+        {
+          "question": "जन्म दर्ता कागजात कसरी प्राप्त गर्ने?",
+          "answer": "तपाईंले \"जन्म दर्ता कागजात कसरी प्राप्त गर्ने?\" भनी सोध्नुभएको छ।\n\nक्षमा गर्नुहोस्, उपलब्ध गराइएको सन्दर्भ जानकारीमा जन्म दर्ता कागजात प्राप्त गर्ने सम्बन्धमा कुनै सेवा उल्लेख छैन। यहाँ दिइएका सेवाहरू आयुर्वेदिक अस्पताल र क्लिनिकको स्थापना, नवीकरण वा स्तरोन्नतिसँग सम्बन्धित छन्।\n\nजन्म दर्ता सामान्यतया तपाईंको स्थानीय वडा कार्यालय (Ward Office) बाट गरिन्छ। यसका लागि आवश्यक कागजातहरूमा नवजात शिशुको जन्म भएको प्रमाण (अस्पतालको जन्म रिपोर्ट), आमाबुबाको विवाह दर्ता, र नागरिकताको प्रतिलिपिहरू पर्दछन्।\n\nयदि तपाईंलाई आयुर्वेदिक अस्पताल/क्लिनिक सम्बन्धी जानकारी चाहिएको भए, म सहयोग गर्न सक्छु।",
+          "expected_language": "nepali",
+          "detected_language": "nepali",
+          "answer_language": "nepali",
+          "language_consistent": true,
+          "response_time": 3.0330991744995117,
+          "has_content": true,
+          "answer_length": 590
+        }
+      ]
+    },
+    "retrieval_quality": {
+      "avg_documents_retrieved": 6.0,
+      "avg_relevance_score": 0.5416666666666666,
+      "retrieval_success_rate": 1.0,
+      "detailed_results": [
+        {
+          "question": "government services",
+          "num_documents_retrieved": 6,
+          "relevance_score": 0.16666666666666666,
+          "documents_retrieved": true
+        },
+        {
+          "question": "citizenship application",
+          "num_documents_retrieved": 6,
+          "relevance_score": 0.9166666666666666,
+          "documents_retrieved": true
+        }
+      ]
+    },
+    "translation_quality": {
+      "overall_avg_similarity": 0.11785714285714285,
+      "direction_metrics": {
+        "en_to_np": {
+          "avg_similarity_score": 0.03571428571428571,
+          "num_tests": 1
+        },
+        "np_to_en": {
+          "avg_similarity_score": 0.2,
+          "num_tests": 1
+        }
+      },
+      "detailed_results": [
+        {
+          "source_text": "Government services are available online",
+          "translated_text": "Here are a few natural ways to translate \"Government services are available online\" into Nepali, with slight variations in nuance:\n\n1.  **सरकारका सेवाहरू अनलाइन उपलब्ध छन्।**\n    *   (Sarkarka sewa-haru online upalabdha chhan.)\n    *   *This is a very direct and common translation.*\n\n2.  **सरकारी सेवाहरू अनलाइन पाइन्छन्।**\n    *   (Sarkari sewa-haru online painchhan.)\n    *   *This uses \"सरकारी\" (governmental) instead of \"सरकारका\" (of the government) and \"पाइन्छन्\" which means \"are found/received/available,\" a very natural way to express availability.*\n\n3.  **सरकारका सेवाहरू अनलाइनबाट लिन सकिन्छ।**\n    *   (Sarkarka sewa-haru online-bat lina sakinchha.)\n    *   *This emphasizes that the services \"can be accessed/taken\" online.*\n\nAll three are good and natural. The first two are probably the most common.",
+          "expected_translation": "सरकारी सेवाहरू अनलाइन उपलब्ध छन्",
+          "similarity_score": 0.03571428571428571,
+          "direction": "en_to_np"
+        },
+        {
+          "source_text": "नागरिकताको लागि आवेदन गर्नुहोस्",
+          "translated_text": "**Apply for citizenship.**",
+          "expected_translation": "Apply for citizenship",
+          "similarity_score": 0.2,
+          "direction": "np_to_en"
+        }
+      ]
+    },
+    "overall_performance": {
+      "overall_score": 0.7742857142857144,
+      "max_possible_score": 1.0000000000000002,
+      "normalized_score": 0.7742857142857141
+    }
+  }
+}
